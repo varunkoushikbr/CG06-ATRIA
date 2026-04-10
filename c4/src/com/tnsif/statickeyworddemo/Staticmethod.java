@@ -1,5 +1,13 @@
 package com.tnsif.statickeyworddemo;
 
-public class Staticmethod {
-
+class Paymentgateway{
+	static void shownotification() {
+		System.out.println("Supported bank: SBI, Axis, ...");
+	}
 }
+public class Staticmethod {
+	public static void main(String[] args) {
+		Paymentgateway.shownotification();
+	}
+}
+
