@@ -12,7 +12,7 @@ public class Finalvariable {
 	public static void main(String[] args) {
 		UPIAPP u = new UPIAPP();
 		u.showlimit();
-		u.max=2000;
+		
 	}
 
 }

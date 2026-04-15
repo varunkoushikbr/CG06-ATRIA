@@ -1,6 +1,6 @@
 package com.tnsif.finalkeyworddemo;
- final class Ecommerceplatform{
-	final void calculate() {
+/* final*/ class Ecommerceplatform{
+	/*final*/ void calculate() {
 		System.out.println("base discount 10%");
 	}
 }
